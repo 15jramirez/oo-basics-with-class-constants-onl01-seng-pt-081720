@@ -17,5 +17,6 @@ class Shoe
     new_array = []
     new_array << brand 
     new_array.uniq 
-    @BRANDS << new_array.uniq 
+    @BRANDS << new_array.uniq
+  end
 end
