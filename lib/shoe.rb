@@ -2,8 +2,8 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
   BRANDS = []
-  array=[]
   def initialize(brand)
+      array=[]
     @brand = brand
     array << brand
     array = array.uniq
