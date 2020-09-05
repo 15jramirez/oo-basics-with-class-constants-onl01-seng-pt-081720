@@ -4,8 +4,7 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
-  BRANDS << brand
-BRANDS.uniq {|s| s[/^\w+/]} 
+BRANDS.uniq {|s| s[/^\w+/]} << brand
   
   end
 
