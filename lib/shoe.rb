@@ -3,7 +3,7 @@ class Shoe
   attr_reader :brand
   BRANDS = []
   def initialize(brand)
-    @brand = brand.uniq { |p| p.brand_id}
+    @brand = brand
     BRANDS << brand
    
   end
