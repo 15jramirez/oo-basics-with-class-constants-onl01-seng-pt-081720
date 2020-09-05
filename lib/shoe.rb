@@ -4,10 +4,7 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
-    BRANDS.each do |brand|
       BRANDS << brand 
-  
-    end
   
   end
 
