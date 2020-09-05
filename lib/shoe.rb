@@ -6,7 +6,7 @@ class Shoe
     @brand = brand
     BRANDS.each do |brand|
       BRANDS << brand 
-      BRANDS.unqi 
+      BRANDS.uniq 
     end
   
   end
