@@ -12,4 +12,10 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
+  
+  def array (brand)
+    new_array = []
+    new_array << brand 
+    new_array.uniq 
+    @BRANDS << new_array.uniq 
 end
